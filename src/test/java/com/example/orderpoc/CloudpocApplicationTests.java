@@ -1,10 +1,10 @@
-package com.rakesh.ratingservice;
+package com.example.orderpoc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RatingserviceApplicationTests {
+class CloudpocApplicationTests {
 
 	@Test
 	void contextLoads() {
