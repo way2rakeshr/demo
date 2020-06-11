@@ -32,7 +32,7 @@ public class OrderController {
 	 @GetMapping("/allUsers")
 	 @HystrixCommand(fallbackMethod = "fallBackgetAllUsers")
 	public UserList  getAllUsers(){
-//		 UserList forObject = restTemplate.getForObject("http://localhost:8082/api/allUsers/", UserList.class);
+//		
 		    UserList forObject = restTemplate.getForObject("http://loginpoc/api/allUsers/", UserList.class);
 		return forObject;
 		 
