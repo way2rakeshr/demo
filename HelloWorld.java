@@ -7,7 +7,8 @@ public class HelloWorld {
 
 
 System.out.println("new line");
-		System.out.println("my build");
+		merge check
+			System.out.println("my build");
 System.out.println("running it");
 System.out.println("success");
 
