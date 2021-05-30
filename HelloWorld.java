@@ -29,5 +29,5 @@ System.out.println("checking weeb hook");
 
 	ertyuit
 new ert
-new line macha
+new line machera
 }
